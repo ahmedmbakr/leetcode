@@ -1,17 +1,21 @@
 #include <iostream>
 #include <vector>
+#include <map>
 
 using namespace std;
 //Problem Link: https://leetcode.com/problems/two-sum/
 
 class Solution {
+    map<int, int> mp; //The key represents the number and the value is its index in the array
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         for(int i = 0; i < nums.size(); ++i){
-            for(int j = i + 1; j < nums.size(); ++j){
-                if(nums[i] + nums[j] == target){
-                    return vector<int>{i, j};
-                }
+            mp[nums[i]] = i;
+        }
+        for(int i = 0; i < nums.size(); ++i){
+            auto other_number_idx_it = mp.find(target - nums[i]);
+            if(other_number_idx_it != mp.end() && other_number_idx_it->second != i){
+                return vector<int>{i, mp[target - nums[i]]};
             }
         }
         return vector<int>{-1, -1};
