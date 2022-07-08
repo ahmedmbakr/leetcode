@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode longest-substring-without-repeating-characters.cpp)
+add_executable(Leetcode median-of-two-sorted-arrays.cpp)
