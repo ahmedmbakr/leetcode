@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode integer-to-roman.cpp)
+add_executable(Leetcode longest-common-prefix.cpp)
