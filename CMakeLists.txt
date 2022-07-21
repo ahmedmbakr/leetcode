@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode palindrome-linked-list.cpp)
+add_executable(Leetcode odd-even-linked-list.cpp sort-list.cpp)
