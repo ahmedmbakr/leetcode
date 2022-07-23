@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode odd-even-linked-list.cpp sort-list.cpp)
+add_executable(Leetcode balanced-binary-tree.cpp)
