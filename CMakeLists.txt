@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode balanced-binary-tree.cpp)
+add_executable(Leetcode search-in-rotated-sorted-array.cpp)
