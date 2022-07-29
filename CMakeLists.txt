@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode convert-sorted-array-to-binary-search-tree.cpp)
+add_executable(Leetcode course-schedule-ii.cpp)
