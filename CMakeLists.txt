@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode bus-routes.cpp)
+add_executable(Leetcode house-robber.cpp)
