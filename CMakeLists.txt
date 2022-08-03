@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode house-robber.cpp)
+add_executable(Leetcode coin-change.cpp)
