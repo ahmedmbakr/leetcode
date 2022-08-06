@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Leetcode partition-equal-subset-sum.cpp)
+add_executable(Leetcode maximum-product-subarray.cpp)
